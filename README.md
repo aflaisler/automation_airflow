@@ -59,3 +59,5 @@ airflow scheduler -D & airflow webserver -p 8080
 
 In your browser go to: http://localhost:8080
 => turn on your pipeline.
+
+For more information regarding the DAGs or the scripts please contact me: aflaisler at gmail.com
