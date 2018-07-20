@@ -12,9 +12,9 @@ For this automation project, we decided to use Apache Airflow to programmaticall
 
  # The files
 
-------
+------------------
 dags
-------
+------------------
 
 dag-dotcom-xxxxx-weekly.py
 
@@ -59,5 +59,17 @@ airflow scheduler -D & airflow webserver -p 8080
 
 In your browser go to: http://localhost:8080
 => turn on your pipeline.
+
+------------------
+Example of graph
+------------------
+
+### Steps:
+- retrieving the data
+- testing the integrity of the data
+- push the data x3 (3 different transformations)
+- testing the correct landing of the data x3
+
+![image](images/graph_example.png)
 
 For more information regarding the DAGs or the scripts please contact me: aflaisler at gmail.com
